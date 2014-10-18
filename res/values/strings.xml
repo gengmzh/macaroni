@@ -2,5 +2,20 @@
 <resources>
 
     <string name="app_name">通心粉</string>
+    <string name="app_welcome">欢迎使用~</string>
+    
+    <!-- main -->
+    <style name="main_title" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">40dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/main_title_backgroud</item>
+    </style>
+    <style name="main_title_backgroud">
+        <item name="android:background">#4682B4</item>
+    </style>
+    <color name="main_tab_default">#696969</color>
+    <color name="main_tab_selected">#4682B4</color>
+    <string name="main_tab_call">通话</string>
+    <string name="main_tab_sms">短信</string>
+    <string name="main_tab_trace">足迹</string>
 
 </resources>
